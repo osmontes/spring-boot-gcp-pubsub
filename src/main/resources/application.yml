@@ -1,0 +1,6 @@
+spring:
+  cloud:
+    gcp:
+      project-id: leroymerlin-ecommerce-pruebas
+      pubsub:
+        subscription-name: prueba-oscar-pull
