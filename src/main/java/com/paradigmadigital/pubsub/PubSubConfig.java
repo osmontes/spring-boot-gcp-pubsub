@@ -28,9 +28,7 @@ public class PubSubConfig {
     public MessageChannel pubsubInputChannel() {
         return new DirectChannel();
     }
-    // end::pubsubInputChannel[]
 
-    // tag::messageChannelAdapter[]
     @Bean
     public PubSubInboundChannelAdapter messageChannelAdapter(
             @Qualifier("pubsubInputChannel") MessageChannel inputChannel,
