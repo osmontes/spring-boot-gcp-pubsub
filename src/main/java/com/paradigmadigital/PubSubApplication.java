@@ -12,6 +12,4 @@ public class PubSubApplication {
 	SpringApplication.run(PubSubApplication.class, args);
   }
 
-
-
 }
